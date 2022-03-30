@@ -1,0 +1,48 @@
+﻿{
+  "adjectiveAfterNoun": true,
+  "shapes": 
+    {
+      "Circle": { "name": "Cercle" },
+      "Oval": { "name": "Rond", "isFeminine": false },
+      "Rectangle": { "name": "Rectangle" },
+      "Hexagon": { "name": "Hexagone" },
+      "Trapezoid": { "name": "Trapèze" },
+      "Star": { "name": "Etoile", "isFeminine": true },
+      "Square": { "name": "Carré" },
+      "Triangle": { "name": "Triangle" },
+      "Heart": { "name": "Coeur" }
+    }
+  ,
+  "colors": 
+    {
+      "Red": {
+        "name": "Rouge"
+      },
+      "Blue": {
+        "name": "Bleu",
+        "feminine": "Bleue"
+      },
+      "Yellow": { "name": "Jaune" },
+      "Green": {
+        "name": "Vert",
+        "feminine": "Verte"
+      },
+      "Purple": {
+        "name": "Violet",
+        "feminine": "Violette"
+      },
+      "Pink": {
+        "name": "Rose"
+      },
+      "Orange": {
+        "name": "Orange"
+      },
+      "Tan": {
+        "name": "Beige"
+      },
+      "Gray": {
+        "name": "Gris",
+        "feminine": "Grise"
+      }
+    }
+}

@@ -1,21 +1,26 @@
 ﻿{
-	"Circle": "Круг",
-	"Oval": "Овал",
-	"Rectangle": "Прямоугольник",
-	"Hexagon": "Шестиугольник",
-	"Trapezoid": "Трапеция",
-	"Star": "Звезда",
-	"Square": "Квадрат",
-	"Triangle": "Треугольник",
-	"Heart": "Сердце",
+	"adjectiveAfterNoun": false,
 
-	"Red": "красный",
-	"Blue": "синий",
-	"Yellow": "желтый",
-	"Green": "зеленый",
-	"Purple": "фиолетовый",
-	"Pink": "розовый",
-	"Orange": "оранжевый",
-	"Tan": "желтовато-коричневый",
-	"Gray": "серый"
+	"shapes": {
+		"Circle": { "name": "Круг" },
+		"Oval": { "name": "Овал" },
+		"Rectangle": { "name": "Прямоугольник" },
+		"Hexagon": { "name": "Шестиугольник" },
+		"Trapezoid": { "name": "Трапеция" },
+		"Star": { "name": "Звезда" },
+		"Square": { "name": "Квадрат" },
+		"Triangle": { "name": "Треугольник" },
+		"Heart": { "name": "Сердце" }
+	},
+	"colors": {
+		"Red": { "name": "красный" },
+		"Blue": { "name": "синий" },
+		"Yellow": { "name": "желтый" },
+		"Green": { "name": "зеленый" },
+		"Purple": { "name": "фиолетовый" },
+		"Pink": { "name": "розовый" },
+		"Orange": { "name": "оранжевый" },
+		"Tan": { "name": "желтовато-коричневый" },
+		"Gray": { "name": "серый" }
+	}
 }

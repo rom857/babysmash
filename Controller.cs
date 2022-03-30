@@ -46,6 +46,7 @@ namespace BabySmash
         private Queue<Shape> ellipsesQueue = new Queue<Shape>();
         private Dictionary<string, List<UserControl>> figuresUserControlQueue = new Dictionary<string, List<UserControl>>();
         private WordFinder wordFinder = new WordFinder("Words.txt");
+        private Localizer localizedString = new Localizer();
 
         /// <summary>Prevents a default instance of the Controller class from being created.</summary>
         private Controller() { }
@@ -345,44 +346,9 @@ namespace BabySmash
                 }
                 else
                 {
-                    SpeakString(GetLocalizedString(Utils.ColorToString(template.Color)) + " " + template.Name);
+                    SpeakString(localizedString.GetLocalizedPhrase(Utils.ColorToString(template.Color), template.Name)); //GetLocalizedString(Utils.ColorToString(template.Color)) + " " + template.Name);
                 }
             }
-        }
-
-        /// <summary>
-        /// Returns <param name="key"></param> if value or culture is not found.
-        /// </summary>
-        public static string GetLocalizedString(string key)
-        {
-            CultureInfo keyboardLanguage = System.Windows.Forms.InputLanguage.CurrentInputLanguage.Culture;
-            string culture = keyboardLanguage.Name;
-            string path = $@"Resources\Strings\{culture}.json";
-            string path2 = @"Resources\Strings\en-EN.json";
-            string jsonConfig = null;
-            if (File.Exists(path))
-            {
-                jsonConfig = File.ReadAllText(path);
-            }
-            else if (File.Exists(path2))
-            {
-                jsonConfig = File.ReadAllText(path2);
-            }
-
-            if (jsonConfig != null)
-            {
-                Dictionary<string, object> config = JsonConvert.DeserializeObject<Dictionary<string, object>>(jsonConfig);
-                if (config.ContainsKey(key))
-                {
-                    return config[key].ToString();
-                }
-            }
-            else
-            {
-                System.Diagnostics.Debug.Assert(false, "No file");
-            }
-
-            return key;
         }
 
         private void PlayLaughter()

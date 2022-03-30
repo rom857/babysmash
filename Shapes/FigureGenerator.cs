@@ -85,7 +85,7 @@ namespace BabySmash
             }
             else
             {
-                name = Controller.GetLocalizedString(nameFunc.Key.ToString());
+                name = nameFunc.Key.ToString();
             }
 
             return new FigureTemplate

@@ -1,21 +1,26 @@
 ﻿{
-	"Circle": "Circle",
-	"Oval": "Oval",
-	"Rectangle": "Rectangle",
-	"Hexagon": "Hexagon",
-	"Trapezoid": "Trapezoid",
-	"Star": "Star",
-	"Square": "Square",
-	"Triangle": "Triangle",
-	"Heart": "Heart",
+	"adjectiveAfterNoun": false,
 
-	"Red": "Red",
-	"Blue": "Blue",
-	"Yellow": "Yellow",
-	"Green": "Green",
-	"Purple": "Purple",
-	"Pink": "Pink",
-	"Orange": "Orange",
-	"Tan": "Tan",
-	"Gray": "Gray"
+	"shapes": {
+		"Circle": { "name": "Circle" },
+		"Oval": {		"name": "Oval"		},
+		"Rectangle": { "name": "Rectangle" },
+		"Hexagon": { "name": "Hexagon" },
+		"Trapezoid": { "name": "Trapezoid" },
+		"Star": { "name": "Star" },
+		"Square": { "name": "Square" },
+		"Triangle": { "name": "Triangle" },
+		"Heart": { "name": "Heart" }
+	},
+	"colors": {
+		"Red": { "name": "Red" },
+		"Blue": { "name": "Blue" },
+		"Yellow": { "name": "Yellow" },
+		"Green": { "name": "Green" },
+		"Purple": { "name": "Purple" },
+		"Pink": { "name": "Pink" },
+		"Orange": { "name": "Orange" },
+		"Tan": { "name": "Tan" },
+		"Gray": { "name": "Gray" }
+	}
 }

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
     <ManifestCertificateThumbprint>E4355A6B46BE61300D217B56C346651E03BEB47F</ManifestCertificateThumbprint>
     <ManifestKeyFile>private.pfx</ManifestKeyFile>
@@ -29,9 +29,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Update="System.Core"/>
+    <Reference Update="System.Core" />
     <Reference Include="System.Speech" />
-    <Reference Update="System.Xml.Linq"/>
+    <Reference Update="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <None Include="private.pfx" />
@@ -39,6 +39,9 @@
     <None Update="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Resources\Strings\fr-FR.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Resources\Strings\ru-RU.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
