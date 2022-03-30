@@ -346,7 +346,7 @@ namespace BabySmash
                 }
                 else
                 {
-                    SpeakString(localizedString.GetLocalizedPhrase(Utils.ColorToString(template.Color), template.Name)); //GetLocalizedString(Utils.ColorToString(template.Color)) + " " + template.Name);
+                    SpeakString(localizedString.GetLocalizedPhrase(Utils.ColorToString(template.Color), template.Name)); 
                 }
             }
         }

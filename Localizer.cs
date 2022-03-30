@@ -40,9 +40,7 @@ namespace BabySmash
             }
         }
 
-        /// <summary>
-        /// Returns <param name="key"></param> if value or culture is not found.
-        /// </summary>
+        /// <summary>Returns <param name="key"></param> if value or culture is not found.</summary>
         public string GetLocalizedPhrase(string color, string shape)
         {
             LocalizedShape localizedShape = currentLocale.GetLocalizedShape(shape);
