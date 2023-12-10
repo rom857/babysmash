@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
     <ManifestCertificateThumbprint>E4355A6B46BE61300D217B56C346651E03BEB47F</ManifestCertificateThumbprint>
     <ManifestKeyFile>private.pfx</ManifestKeyFile>
